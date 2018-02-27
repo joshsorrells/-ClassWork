@@ -14,7 +14,7 @@ public class Fraction implements Comparable<Fraction> {
 
     @Override
     public int compareTo(Fraction o) {
-        int difference = this.num*o.denom - o.num*this.denom
+        int difference = this.num*o.denom - o.num*this.denom;
                 if(difference > 0)return 1;
                 else if(difference < 0)return -1;
                 return 0;
