@@ -9,7 +9,7 @@ public class Fraction implements Comparable<Fraction> {
     public Fraction(int num, int denom){
         this.num = denom;
         this.denom = denom;
-        simplify();
+        //simplify();
     }
 
     @Override
@@ -17,6 +17,6 @@ public class Fraction implements Comparable<Fraction> {
         int difference = this.num*o.denom - o.num*this.denom;
                 if(difference > 0)return 1;
                 else if(difference < 0)return -1;
-                return 0;
+                else return 0;
     }
 }
