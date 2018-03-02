@@ -27,4 +27,8 @@ public class Fraction implements Comparable<Fraction> {
         }
         else return false;
     }
+
+    public String toString(){
+        return num + "/" + denom;
+    }
 }
