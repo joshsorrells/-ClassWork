@@ -28,6 +28,7 @@ public class Fraction implements Comparable<Fraction> {
         else return false;
     }
 
+    @Override
     public String toString(){
         return num + "/" + denom;
     }
