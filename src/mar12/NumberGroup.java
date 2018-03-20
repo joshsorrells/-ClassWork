@@ -1,4 +1,6 @@
 package mar12;
 
-public class NumberGroup {
+public interface NumberGroup
+{
+    boolean contains(int nums);
 }
