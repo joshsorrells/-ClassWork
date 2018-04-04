@@ -7,6 +7,6 @@ public class TokenPass {
 
     public TokenPass(int playerCount){
         board = new int[playerCount];
-        for(int i = 0; i < playerCount; i++)
+        for(int i = 0; i < playerCount; i++);
     }
 }
